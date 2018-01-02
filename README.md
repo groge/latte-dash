@@ -24,10 +24,6 @@
   vuejs 로 개발을 진행 할 수 있으며 vue-router가 미리 설정 되어 있음
 - static
   vuejs 와 관련없이 공통으로 사용해야 할 정적 파일들을 이곳에서 보관하도록 한다
-  ㄴ static/ext-libs/
-     해당 라이브러리들은 외부 라이브러리들을 bower 를 통해 다운로드 받은 파일 이다
-     사용법: index.html 파일에 js/css 파일들을 추가 해주어야 한다
-     의존성 정보는 bower.json 에 저장되며, 저장 위치는 .bowerrc 에 설정 되어있다
 - test
   개발 하면서 유닛테스트를 진행 할 수 있도록 준비되어 있는 test 폴더
 - dist
@@ -44,9 +40,6 @@
 ``` bash
 # install dependencies
 npm install
-
-# install dependencies (static libs)
-bower install
 
 # serve with hot reload at localhost:8080
 npm run dev
