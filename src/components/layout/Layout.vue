@@ -5,14 +5,23 @@
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Latte-Dash'
+  import Navbar from './navbar/Navbar'
+  import Sidebar from './sidebar/Sidebar'
+  import Footer from './footer/footer'
+
+  export default {
+    name: 'layout',
+    components: {
+      Navbar,
+      Sidebar,
+      Footer
+    },
+    data () {
+      return {
+        msg: 'Welcome to Latte-Dash'
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

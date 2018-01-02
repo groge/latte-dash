@@ -5,8 +5,17 @@
 </template>
 
 <script>
+  import Layout from './components/layout/Layout'
+  import AuthLayout from './components/layout/AuthLayout'
+
 export default {
-  name: 'app'
+    name: 'app',
+    components: {
+      AuthLayout,
+      Layout
+    },
+    computed: {
+    }
 }
 </script>
 
