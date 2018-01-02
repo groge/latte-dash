@@ -11,7 +11,7 @@
 
 ## 프로젝트 구조 설명
 
-[guide] (http://itstory.tk/entry/vuecli-Webpack-템플릿으로-vuejs-개발환경-구축하기)
+[guide] ( http://itstory.tk/entry/vuecli-Webpack-템플릿으로-vuejs-개발환경-구축하기 )
 
 ```bash
 - build
