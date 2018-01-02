@@ -10,6 +10,7 @@
 
 
 ## 프로젝트 구조 설명
+> 설명 참고: [guide] (http://itstory.tk/entry/vuecli-Webpack-템플릿으로-vuejs-개발환경-구축하기)
 
 ```bash
 - build
@@ -29,6 +30,7 @@
   이 폴더 안에 있는 모든 파일을 배포 공간에 넣어두면 서비스를 운영 할 수 있다
 
 ```
+
 
 
 ## Build Setup
