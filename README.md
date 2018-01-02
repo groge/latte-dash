@@ -1,6 +1,11 @@
-# latte-dash
+# Latte-Dash
 
-> A Vue.js project
+> Latte-Dash project
+## Goal
+
+```bash
+  Study for vue...
+```
 
 ## Build Setup
 
