@@ -30,7 +30,8 @@
   빌드를 완료하면 dist 폴더에 모든 파일과 index.html 까지 포함 되어 있다.
   이 폴더 안에 있는 모든 파일을 배포 공간에 넣어두면 서비스를 운영 할 수 있다
 
-
+- booststrap-vue 사용
+  참고 https://bootstrap-vue.js.org/docs
 ```
 
 
