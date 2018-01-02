@@ -1,11 +1,35 @@
 # Latte-Dash
 
 > Latte-Dash project
+
 ## Goal
 
 ```bash
   Study for vue...
 ```
+
+
+## 프로젝트 구조 설명
+
+```bash
+- build
+  배포시 관련 설정들이 들어있는 폴더
+- config
+  webpack 관련 설정들이 포함 되어있는 폴더
+- package.json
+  npm 의존성 모듈 목록들과 개발/테스트/배포 할 수 있는 명령어들이 포함되어있음
+- src
+  vuejs 로 개발을 진행 할 수 있으며 vue-router가 미리 설정 되어 있음
+- static
+  vuejs 와 관련없이 공통으로 사용해야 할 정적 파일들을 이곳에서 보관하도록 한다
+- test
+  개발 하면서 유닛테스트를 진행 할 수 있도록 준비되어 있는 test 폴더
+- dist
+  빌드를 완료하면 dist 폴더에 모든 파일과 index.html 까지 포함 되어 있다.
+  이 폴더 안에 있는 모든 파일을 배포 공간에 넣어두면 서비스를 운영 할 수 있다
+
+```
+
 
 ## Build Setup
 
